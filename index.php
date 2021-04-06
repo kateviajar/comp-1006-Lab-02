@@ -38,13 +38,13 @@
       <tbody>
         <?php foreach ($rows as $row): ?>
           <tr>
-          <td><?= $row['name'] ?></td>
-          <td><?= $row['price'] ?></td>
-          <td>
-          <a href='./edit.php?id=<?= $row['id'] ?>'>edit</a>
-          |
-          <a href='./delete.php?id=<?= $row['id'] ?>'>delete</a>
-          </td>
+            <td><?= $row['name'] ?></td>
+            <td><?= $row['price'] ?></td>
+            <td>
+              <a href='./edit.php?id=<?= $row['id'] ?>'>edit</a>
+              |
+              <a href='./delete.php?id=<?= $row['id'] ?>'>delete</a>
+            </td>
           </tr>
         <?php endforeach ?>
       </tbody>
